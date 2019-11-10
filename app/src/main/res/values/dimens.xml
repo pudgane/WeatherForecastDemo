@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textSize_xlarge">18sp</dimen>
+    <dimen name="textsize_large">15sp</dimen>
+    <dimen name="textsize_medium">12sp</dimen>
+    <dimen name="textsize_small">9sp</dimen>
+    <dimen name="padding_large">10.0dip</dimen>
+    <dimen name="padding_medium">8.0dip</dimen>
+    <dimen name="padding_small">5.0dip</dimen>
+
+</resources>

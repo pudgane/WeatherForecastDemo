@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailedActivity">
+
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="City:"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/valueCity"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/valueCity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pune"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCity"
+        />
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Country:"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvCity"
+        app:layout_constraintEnd_toStartOf="@+id/valueCountry"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/valueCountry"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Pune"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvCity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCountry"
+        />
+
+    <TextView
+        android:id="@+id/tvLat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Lat:"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountry"
+        app:layout_constraintEnd_toStartOf="@+id/valueCountry"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/valueLat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCity"
+        />
+
+    <TextView
+        android:id="@+id/tvLon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Long:"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvLat"
+        app:layout_constraintEnd_toStartOf="@+id/valueCountry"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/valueLon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvLat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCity"
+        />
+
+    <TextView
+        android:id="@+id/tvMinTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Minimum Temp. :"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvLon"
+        app:layout_constraintEnd_toStartOf="@+id/valueCountry"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/valueMinTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvLon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCity"
+        />
+
+    <TextView
+        android:id="@+id/tvMaxTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Maximum Temp. :"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvMinTemp"
+        app:layout_constraintEnd_toStartOf="@+id/valueCountry"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/valueMaxTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="13"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvMinTemp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCity"
+        />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Date :"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvMaxTemp"
+        app:layout_constraintEnd_toStartOf="@+id/valueCountry"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <TextView
+        android:id="@+id/valuesDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2019-11-13"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvMaxTemp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCity"
+        />
+
+    <TextView
+        android:id="@+id/tvWeather"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Weather :"
+        android:gravity="start"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate"
+        app:layout_constraintEnd_toStartOf="@+id/valueCountry"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/valuesWeather"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2019-11-13"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvCity"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
